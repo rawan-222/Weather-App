@@ -1,0 +1,22 @@
+.weather{background-image: url(../cute-weather-icon-set-weather-forecast-icon-isolated-white-background_68708-952.webp);height: 125vh;background-size: cover;}
+.w1{ background-color:rgba(57,26,87,0.35) ;}
+nav{ background-color: rgba(57, 26, 87, 1);color: white; }
+.navbar-brand{font-size: 2rem;}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{color:rgb(74, 163, 190);}
+.item1{ border: 2px rgb(74, 163, 190) solid; color:rgb(74, 163, 190) ;border-radius:20px ; -webkit-border-radius:20px ; -moz-border-radius:20px ; -ms-border-radius:20px ; -o-border-radius:20px ; }
+.mynav a{color:white;}
+.nav-item a{ padding: 0px 15px; color:white; border: 0; border-radius:0 ; -webkit-border-radius:0 ; -moz-border-radius:0 ; -ms-border-radius:0 ; -o-border-radius:0 ; }
+.nav-item:hover a{ border: 2px rgb(74, 163, 190) solid; color: rgb(74, 163, 190); border-radius:20px ; -webkit-border-radius:20px ; -moz-border-radius:20px ; -ms-border-radius:20px ; -o-border-radius:20px ; }
+.mybtn{top: 5px;right: 20px;background-color: rgb(57, 26, 87);color: white;border: rgb(57, 26, 87);padding: 12px 0px;}
+.w2{background-color: rgba(57, 26, 87,0.3);}
+.day{background-color: rgba(56, 26, 87, 0.788);}
+.w3{font-size: 4.5rem; font-weight: bold;}
+.w4{background-color: rgba(57, 26, 87,0.5);}
+.btn1{right: 20px;}
+.icon1{ color: rgb(57, 26, 87); width: 50px; height: 50px; transition:0.5s all ; -webkit-transition:0.5s all ; -moz-transition:0.5s all ; -ms-transition:0.5s all ; -o-transition:0.5s all ; }
+.icon1:hover{color: white;background-color: rgb(57, 26, 87);}
+.icon a{text-decoration: none;}
+footer{background-color: rgba(57, 26, 87,0.5);}
+@media screen and (max-width: 768px) {
+    .weather{height: 250vh;}
+}
