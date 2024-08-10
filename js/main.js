@@ -1,4 +1,4 @@
-let link=`http://api.weatherapi.com/v1/forecast.json?key=e27df1c467ec493d847231930231902 &q=egypt&days=3&aqi=no&alerts=no`
+let link=`https://api.weatherapi.com/v1/forecast.json?key=e27df1c467ec493d847231930231902 &q=egypt&days=3&aqi=no&alerts=no`
 
 async function test(){
    let response=await fetch(link)
@@ -79,7 +79,7 @@ let month=["January","February","March" ,"April","May","June","July","August","S
 let days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday',"Saturday"]
 
 function findLocation(){
-   link=`http://api.weatherapi.com/v1/forecast.json?key=e27df1c467ec493d847231930231902&q=${document.querySelector(".locationinput").value}&days=3&aqi=no&alerts=no`
+   link=`https://api.weatherapi.com/v1/forecast.json?key=e27df1c467ec493d847231930231902&q=${document.querySelector(".locationinput").value}&days=3&aqi=no&alerts=no`
     test()    
     
 }
